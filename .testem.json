@@ -1,0 +1,7 @@
+{
+  "framework": "qunit",
+  "src_files": [
+    "src/*.js",
+    "test/**/*-test.js"
+  ]
+}

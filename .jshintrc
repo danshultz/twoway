@@ -1,0 +1,15 @@
+{
+  "undef" : true,
+  "unused" : true,
+  "asi" : false,
+  "boss" : true,
+  "camelcase" : true,
+  "eqeqeq" : false,
+  "expr" : false, 
+  "sub" : false,
+  "maxlen" : 80,
+  "globals" : {
+  },
+
+  "browser" : true
+}
