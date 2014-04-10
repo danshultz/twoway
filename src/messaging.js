@@ -116,12 +116,12 @@
   };
 
   var Utils = TwoWay.Utils = {
-    isArray: function(obj) {
-      return obj.constructor.toString().indexOf("Array") >= 0;
+    isArray: function (value) {
+      return Object.prototype.toString.call(value) === '[object Array]';
     },
     
     toArray: function (value) {
-      return this.isArray(value) ? value : [value];
+      return Utils.isArray(value) ? value : [value];
     },
 
     domainMatcher: function (domains) {
